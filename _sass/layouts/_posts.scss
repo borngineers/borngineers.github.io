@@ -1,6 +1,11 @@
 .post-content > :last-child {
   margin-bottom: 0;
 }
+.post-content pre {
+  padding: 1rem;
+  background-color: #fafafa;
+  border-left: 0.25rem solid;
+}
 article,
 .comments {
   @extend %padding-regular;
